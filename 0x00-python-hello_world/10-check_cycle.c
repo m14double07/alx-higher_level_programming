@@ -12,7 +12,7 @@ int check_cycle(listint_t *list)
 	listint_t *two, *one;
 
 	if (!list || !list->next)
-		return(0);
+		return (0);
 
 	two = list;
 	one = list;
@@ -24,8 +24,8 @@ int check_cycle(listint_t *list)
 
 		if (one == two)
 		{
-		return(1);
+		return (1);
 		}
 	}
-	return(0);
+	return (0);
 }
